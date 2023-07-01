@@ -1,0 +1,35 @@
+.container {
+  margin-top: 10px;
+}
+
+.main-box {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 20px auto;
+  gap: 34px;
+  justify-items: center;
+}
+
+/* .detail {
+    border: 1px solid;
+  } */
+
+.searchBar {
+  display: block;
+  margin: 20px auto;
+  width: -webkit-fill-available;
+}
+#search {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  height: 35px;
+  padding: 2px 15px;
+  font-size: 1.5rem;
+}
+#search:focus {
+  outline: none;
+}

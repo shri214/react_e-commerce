@@ -1,0 +1,66 @@
+.cartEmpty {
+  height: 60%;
+  width: 60%;
+  min-width: 300px;
+  border: 1px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 10px 2px rgba(216, 210, 210, 0.5);
+}
+.cartEmpty h1 {
+  font-size: 3rem;
+}
+.cartEmpty b {
+  font-size: 3rem;
+}
+.cartEmpty b:hover {
+  color: var(--white);
+  -webkit-text-stroke: 2px coral;
+}
+.cartEmpty p {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .cartEmpty p {
+    font-size: 2rem;
+  }
+  .cartEmpty {
+    height: 70%;
+    width: 90%;
+  }
+}
+
+/* 
+
+async function gettingStoreItems() {
+    let data = await gettingItems();
+    data.forEach((element) => {
+      if (element['isAdd'] === undefined) {
+        element['isAdd'] = false;
+      }
+    });
+    setItem(data);
+  }
+
+  useEffect(() => {
+    console.log('use effect is called');
+    for (let i = 0; i < Cart.length; i++) {
+      let listName = Cart[i][0];
+      if (listName === login.email) {
+        let arr = [];
+        for (let j = 1; j < Cart[i].length; j++) {
+          arr.push(Cart[i][j].id);
+        }
+        setData(arr);
+      }
+    }
+  }, []);
+
+*/

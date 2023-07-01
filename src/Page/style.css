@@ -1,0 +1,13 @@
+.login-slide {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin: 20px 0px;
+}
+.login-slide:hover {
+  color: var(--white);
+  -webkit-text-stroke: 2px var(--black);
+}
+.logout {
+  margin: 20px 0px;
+}

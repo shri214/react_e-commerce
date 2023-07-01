@@ -1,0 +1,40 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: #0e0e0e;
+  --lightBlue: #76cdf0;
+  --grey: #d7dadc;
+  --darkGray: #4f5050;
+  --red: #ff0000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* color: #ff0000; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--grey);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--lightBlue);
+  border-radius: 5px;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}

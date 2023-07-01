@@ -1,0 +1,27 @@
+.listOfLink {
+  display: flex;
+  flex-flow: column;
+  margin: 20px 0px;
+}
+& .MuiPaper-root {
+  background-color: black !important;
+  width: 40%;
+}
+
+& .css-i4bv87-MuiSvgIcon-root {
+  font-size: 2rem !important;
+}
+.listOfLink a {
+  color: var(--white);
+  font-size: 2rem;
+  padding: 10px 0px;
+  padding-left: 10%;
+  text-decoration: none;
+}
+.listOfLink a:hover {
+  background-color: var(--darkGray) !important;
+}
+.icons {
+  display: flex;
+  justify-content: end;
+}
